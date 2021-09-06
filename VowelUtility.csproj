@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <PackageId>VowelUtility</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>Mikael Johansson</Authors>
+    <Company>Vowel Utilities Inc.</Company>
+  </PropertyGroup>
+
+</Project>
