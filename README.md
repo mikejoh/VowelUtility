@@ -7,8 +7,11 @@ _This repository was created to explore how the .NET C# development ecosystem lo
 ## Notes
 * `dotnet build --configuration release`, builds and packs since `GeneratePackageOnBuild` is set to true in `csproj`
 * `dotnet pack --configuration release`
-* `dotnet 
-* The API key at nuget.org need `unlist` package permissions if you want to be able to delete a package using:
+* `dotnet nuget push bin/release/VowelUtility.0.1.0.nupkg --api-key <KEY> -s https://api.nuget.org/v3/index.json`
+* `dotnet nuget delete VowelUtility 0.1.0 --api-key <KEY> -s https://api.nuget.org/v3/index.json`
+* The fields in the `csproj` file is added to the `nuspec` file bundled within the `nupkg` during `dotnet pack/build`
+* During `dotnet push` the `nuspec` file is accessible next to the `nupkg` here, probably sent and generated as it is when the `nupkg` zip file is created:
 ```
-dotnet nuget delete VowelUtility 0.1.0 --api-key <KEY> -s https://api.nuget.org/v3/index.json
+curl https://api.nuget.org/v3-flatcontainer/VowelUtility/0.1.0/VowelUtility.0.1.0.nupkg
+curl https://api.nuget.org/v3-flatcontainer/VowelUtility/0.1.0/VowelUtility.nuspec
 ```
