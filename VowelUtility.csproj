@@ -5,7 +5,9 @@
     <PackageId>VowelUtility</PackageId>
     <Version>0.1.0</Version>
     <Authors>Mikael Johansson</Authors>
+    <Description>VowelUtility is a library used for counting vowels and various other vowel related operations.</Description>
     <Company>Vowel Utilities Inc.</Company>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
 </Project>
