@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>VowelUtility</id>
+    <version>0.1.1</version>
+    <title>VowelUtility</title>
+    <authors>Mikael Johansson</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/mikejoh/VowelUtility</projectUrl>
+    <repository type="git" url="https://github.com/mikejoh/VowelUtility" commit="f05ad7640ce11a242dcb71b33c149a8762445f3d" />
+    <icon>images\vowel.png</icon>
+    <description>VowelUtility is a library used for counting vowels and various other vowel related operations.</description>
+    <releaseNotes></releaseNotes>
+    <copyright>2021 Mikael Johansson</copyright>
+    <tags>vowel utility</tags>
+  </metadata>
+  <files>
+    <file src="images\vowel.png" target="images\" />
+  </files>
+</package>
