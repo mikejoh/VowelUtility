@@ -8,7 +8,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <license type="expression">MIT</license>
     <projectUrl>https://github.com/mikejoh/VowelUtility</projectUrl>
-    <repository type="git" url="https://github.com/mikejoh/VowelUtility" commit="f05ad7640ce11a242dcb71b33c149a8762445f3d" />
+    <repository type="git" url="https://github.com/mikejoh/VowelUtility" commit="55b1e402b410eafed573468d6cc67829f63ad799" />
     <icon>images\vowel.png</icon>
     <description>VowelUtility is a library used for counting vowels and various other vowel related operations.</description>
     <releaseNotes></releaseNotes>
